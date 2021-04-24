@@ -10,7 +10,7 @@ namespace Biblioteca
     {
         public int EditoraID { get; set; }
         public string Nome { get; set; }
-        public string Morada { get; set; }
-        public string Telefone { get; set; }
+        public Morada Morada { get; set; }
+        public Telefone Telefone { get; set; }
     }
 }

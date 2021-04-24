@@ -14,7 +14,7 @@ namespace Biblioteca
     {
         public DbSet<Autor> Autores { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
-        public DbSet<Controle> Controles { get; set; }
+        public DbSet<Requisicao> Controles { get; set; }
         public DbSet<Editora> Editoras { get; set; }
         public DbSet<Livro> Livros { get; set; }
         public DbSet<Utente> Utentes { get; set; }

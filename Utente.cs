@@ -10,10 +10,10 @@ namespace Biblioteca
     {
         public int UtenteID { get; set; }
         public string Nome { get; set; }
-        public string Telemovel { get; set; }
         public string Morada { get; set; }
         public int QtdEmprestimos { get; set; }
         public DateTime UltimoEmprestimo{ get; set; }
         public bool LivrosDevolver { get; set; }
+        public string Obs { get; set; }
     }
 }
