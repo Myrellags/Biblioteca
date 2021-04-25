@@ -13,6 +13,9 @@ namespace Biblioteca
         [ForeignKey("Utente")]
         public int UtenteID { get; set; }
         public Utente Utente{ get; set; }
+        [ForeignKey("Editora")]
+        public int EditoraID { get; set; }
+        public Editora Editora { get; set; }
         public int Numero { get; set; }
     }
 }

@@ -9,8 +9,8 @@ namespace Biblioteca
 {
     public class Requisicao
     {
-        public int RquisicaoID { get; set; }
-        [ForeignKey("Utente")]
+        public int RequisicaoID { get; set; }
+        [ForeignKey("Livro")]
         public int LivroID { get; set; }
         public Livro Livro { get; set; }
         [ForeignKey("Utente")]
